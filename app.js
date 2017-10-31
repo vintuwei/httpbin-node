@@ -31,6 +31,7 @@ app.use(express.static(path.join(__dirname, 'public')));
     app.use('/headers',        route('headers')      );
     app.use('/get',            route('get')          );
     app.use('/status',         route('status')       );
+    app.use( '/delay',         route('delay')        );
 
 // Custom Routing methods
 // ---------------------------------------------------------------
